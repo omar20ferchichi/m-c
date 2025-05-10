@@ -40,12 +40,12 @@ def pytest_runtest_setup(item):
 @pytest.fixture
 def driver():
     """Initialize and quit Chrome WebDriver."""
-    chrome_options = Options()
-    chrome_options.add_argument("--headless=new")              # Run Chrome in headless mode
-    chrome_options.add_argument("--no-sandbox")                # Bypass OS security model (needed for Docker)
-    chrome_options.add_argument("--disable-dev-shm-usage")     # Avoid shared memory issues
-    chrome_options.add_argument("--disable-gpu")               # Optional but good in headless
-    chrome_options.add_argument("--window-size=1920,1080")     # Set default window size
+    # chrome_options = Options()
+    # chrome_options.add_argument("--headless=new")              # Run Chrome in headless mode
+    # chrome_options.add_argument("--no-sandbox")                # Bypass OS security model (needed for Docker)
+    # chrome_options.add_argument("--disable-dev-shm-usage")     # Avoid shared memory issues
+    # chrome_options.add_argument("--disable-gpu")               # Optional but good in headless
+    # chrome_options.add_argument("--window-size=1920,1080")     # Set default window size
     driver = webdriver.Chrome()
     driver.get("https://www.saucedemo.com/")
     driver.maximize_window()
