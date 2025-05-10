@@ -60,3 +60,5 @@ pytest --cov=src
 pip install pytest-xdist
 pytest -n auto
 ```
+
+![Alt text](image-1.png)
