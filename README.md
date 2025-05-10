@@ -62,3 +62,7 @@ pytest -n auto
 ```
 
 ![Alt text](image-1.png)
+
+### Main test scenario 
+
+![Alt text](image-2.png)
