@@ -70,6 +70,45 @@ pytest -n auto
 
 # Other test scenarios
 
-# My Horizontal Visual Book
+## :test_tube: Tests
 
-![image1](image-1.png) ![image2](image-1.png) ![image3](image-1.png)
+<details>
+    <summary>Unit Tests</summary>
+
+### Unit Tests
+
+To unit-test an event-sourced aggregate, it's to verify that the Aggregate produces the expected event as output given a specific set of input Events and a Command. This involves creating an Aggregate
+instance, applying the input events to it, handling the command, and verifying the expected event output.
+
+```csharp
+[Fact]
+public void CreateCartShouldRaiseCartCreated()
+    => Given<ShoppingCart>()
+        .When<Command.CreateCart>(new(_cartId, _customerId))
+        .Then<DomainEvent.CartCreated>(
+            @event => @event.CartId.Should().Be(_cartId),
+            @event => @event.CustomerId.Should().Be(_customerId),
+            @event => @event.Status.Should().Be(CartStatus.Active));
+```
+
+</details>
+
+<details>
+    <summary>Integration Tests</summary>
+
+### Integration Tests
+
+// TODO
+
+</details>
+
+<details>
+    <summary>Load Tests</summary>
+
+### Load Testing (K6)
+
+```bash
+docker run --network=internal --name k6 --rm -i grafana/k6 run - <test.js
+```
+
+</details>
