@@ -66,3 +66,26 @@ pytest -n auto
 ### Main test scenario 
 
 ![Alt text](image-2.png)
+
+
+# Other test scenarios
+
+## Chapter 1: Introduction
+
+![Chapter 1 - Introduction](image-1.png)
+
+## Chapter 2: Setting Up
+
+![Chapter 2 - Setup](image-1.png)
+
+## Chapter 3: How to Use
+
+![Chapter 3 - Usage](image-1.png)
+
+## Chapter 4: Troubleshooting
+
+![Chapter 4 - Troubleshooting](image-1.png)
+
+## Chapter 5: Conclusion
+
+![Chapter 5 - Conclusion](https://link-to-your-image5.jpg)
