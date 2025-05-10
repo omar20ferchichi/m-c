@@ -10,7 +10,7 @@ This project demonstrates how to write and run tests using the [`pytest`](https:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/omar20ferchichi/m-c
 cd your-repo-name
 ```
 ### 2. Create a Virtual Environment
