@@ -3,6 +3,7 @@
 This project demonstrates how to write and run tests using the [`pytest`](https://docs.pytest.org/) framework in Python.
 
 ## 📁 Project Structure
+![Alt text](image.png)
 
 py_project/
 │
