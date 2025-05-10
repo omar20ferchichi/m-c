@@ -70,22 +70,14 @@ pytest -n auto
 
 # Other test scenarios
 
-## Chapter 1: Introduction
+# My Horizontal Visual Book
 
-![Chapter 1 - Introduction](image-1.png)
+<div style="display: flex; overflow-x: scroll; width: 100%;">
 
-## Chapter 2: Setting Up
+    <img src="image-2.png" style="width: 100%; max-width: 600px; margin-right: 20px;" alt="Chapter 1 - Introduction">
+    <img src="image-2.png" style="width: 100%; max-width: 600px; margin-right: 20px;" alt="Chapter 2 - Setting Up">
+    <img src="image-2.png" style="width: 100%; max-width: 600px; margin-right: 20px;" alt="Chapter 3 - How to Use">
+    <img src="image-2.png" style="width: 100%; max-width: 600px; margin-right: 20px;" alt="Chapter 4 - Troubleshooting">
+    <img src="image-2.png" style="width: 100%; max-width: 600px; margin-right: 20px;" alt="Chapter 5 - Conclusion">
 
-![Chapter 2 - Setup](image-1.png)
-
-## Chapter 3: How to Use
-
-![Chapter 3 - Usage](image-1.png)
-
-## Chapter 4: Troubleshooting
-
-![Chapter 4 - Troubleshooting](image-1.png)
-
-## Chapter 5: Conclusion
-
-![Chapter 5 - Conclusion](https://link-to-your-image5.jpg)
+</div>
